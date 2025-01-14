@@ -1,0 +1,178 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+ h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6B3E2B;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  }
+
+img{
+  display: block;
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  width: 25%;
+}
+
+.cover {
+  display: block;
+  margin: auto;
+  width: 100%
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+   /*-------codice menù-------*/
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #6B3E2B;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu li {
+    position: relative;
+}
+
+ul.menu li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover sul link del menu principale */
+ul.menu li:hover {
+    background-color: #555;
+}
+
+/* Stili per il dropdown */
+ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.dropdown-menu li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover sugli elementi del sottomenu */
+ul.dropdown-menu li a:hover {
+    background-color: #666;
+}
+
+/* Mostra il dropdown al passaggio del mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+    /*-------fine codice menù-------*/
+
+    /*immagini*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+    /*Tabella*/
+table, th, td {
+  border:1px solid black;
+  margin-left: 50px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  color: #ffffff;
+  background-color: #6B3E2B;
+  padding: 30px;
+}
+
+.foot{
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.foot-aside {
+  font-style: normal;
+  font-size: 1vw;
+  margin-right: 15px;
+  margin-top: 95px;
+  float: right;
+  background-color: #6B3E2B;
+}
+
+
+.logo {
+  width: 5%;
+  margin-top: 30px;
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
